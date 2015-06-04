@@ -22,16 +22,16 @@ namespace DJFAzureWebApi1.Models.DJF
 
 			Committees = new List<Committee>
 			{
-				new Committee{ CommitteeId = 1, CommitteeName = "Snydeforbundet" },
+				new Committee{ CommitteeId = 1, CommitteeName = "Riffelsyndikatet" },
 				new Committee{ CommitteeId = 2, CommitteeName = "Kortklubben" }
 
 			};
 
 			Memberships = new List<Membership>
 			{
-				new Membership {Member = 1, Committee = 1},
-				new Membership {Member = 1, Committee = 2},
-				new Membership {Member = 2, Committee = 2}
+				new Membership {MembershipId = 1, Member = Members.First(x => x.MemberId == 1), Committee = Committees.First(x => x.CommitteeId == 1)},
+				new Membership {MembershipId = 2, Member = Members.First(x => x.MemberId == 1), Committee = Committees.First(x => x.CommitteeId == 2)},
+				new Membership {MembershipId = 3, Member = Members.First(x => x.MemberId == 2), Committee = Committees.First(x => x.CommitteeId == 2)}
 			};
 		}
 	}
