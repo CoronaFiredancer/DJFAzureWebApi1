@@ -15,9 +15,9 @@ namespace DJFAzureWebApi1.Models.DJF
 		{
 			Members = new List<Member>
 			{
-				new Member { MemberId = 1, Name = "Steno" },
-				new Member { MemberId = 2, Name = "Brahe" }, 
-				new Member { MemberId = 3, Name = "Rømer" }
+				new Member { MemberId = 1, MemberNumber = "714", Name = "Steno" },
+				new Member { MemberId = 2, MemberNumber = "859", Name = "Brahe" }, 
+				new Member { MemberId = 3, MemberNumber = "1023", Name = "Rømer" }
 			};
 
 			Committees = new List<Committee>
