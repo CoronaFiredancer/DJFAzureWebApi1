@@ -9,9 +9,9 @@ namespace DJFAzureWebApi1.Controllers
 	{
 		private readonly List<Membership> memberships = DB.Memberships;
 
-		public IHttpActionResult GetMembership(int membershipId)
+		public IHttpActionResult GetMembership(int id)
 		{
-			var membership = memberships.FirstOrDefault(x => x.MembershipId == membershipId);
+			var membership = memberships.FirstOrDefault(x => x.MembershipId == id);
 
 			if (membership != null)
 			{

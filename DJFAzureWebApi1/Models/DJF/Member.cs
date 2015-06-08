@@ -16,5 +16,5 @@ namespace DJFAzureWebApi1.Models.DJF
 		{
 			MemberShips = new List<Membership>();
 		}
-}
+	}
 }
