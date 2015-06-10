@@ -6,7 +6,7 @@ using System.Web;
 
 namespace DJFAzureWebApi1.Models.DJF
 {
-	public class RegionContext : DbContext
+	public class DjfRegionContext : DbContext
 	{
 		public DbSet<Region> Regions { get; set; }
 	}
@@ -14,6 +14,7 @@ namespace DJFAzureWebApi1.Models.DJF
 
 	public class Region
 	{
+		public int RegionId { get; set; }
 		public string RegionName { get; set; }
 		public List<JKF> Municipalities { get; set; }
 
