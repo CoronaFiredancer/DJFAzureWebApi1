@@ -1,10 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
 namespace DJFAzureWebApi1.Models.DJF
 {
+	public class RegionContext : DbContext
+	{
+		public DbSet<Region> Regions { get; set; }
+	}
+
+
 	public class Region
 	{
 		public string RegionName { get; set; }
