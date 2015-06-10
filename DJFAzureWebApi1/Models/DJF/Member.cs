@@ -10,12 +10,15 @@ namespace DJFAzureWebApi1.Models.DJF
 		public int MemberId { get; set; }
 		public string MemberNumber { get; set; }
 		public string Name { get; set; }
-		public List<Membership> MemberShips { get; set; }
+		public List<JKF> Jkfs { get; set; }
+
+		//public List<Membership> MemberShips { get; set; }
 		
 
 		public Member()
 		{
-			MemberShips = new List<Membership>();
+			//MemberShips = new List<Membership>();
+			Jkfs = new List<JKF>();
 		}
 	}
 }

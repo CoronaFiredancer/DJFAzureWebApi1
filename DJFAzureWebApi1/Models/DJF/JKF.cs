@@ -7,5 +7,14 @@ namespace DJFAzureWebApi1.Models.DJF
 {
 	public class JKF
 	{
+		public Region Region { get; set; }
+		public List<Association> Associations { get; set; }
+		public Member GreenCouncil { get; set; }
+		public Member HunterCounsellor { get; set; }
+
+		public JKF()
+		{
+			Associations = new List<Association>();
+		}
 	}
 }

@@ -7,5 +7,6 @@ namespace DJFAzureWebApi1.Models.DJF
 {
 	public class Role
 	{
+		public string Title { get; set; }
 	}
 }
