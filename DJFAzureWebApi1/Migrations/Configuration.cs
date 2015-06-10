@@ -29,12 +29,15 @@ namespace DJFAzureWebApi1.Migrations
 			//    );
 			//
 
+			/*
 			context.Regions.AddOrUpdate(x => x.RegionId,
 				new Region { RegionId = 1, RegionName = "Nordjylland" },
 				new Region { RegionId = 2, RegionName = "Vestjylland" },
 				new Region { RegionId = 3, RegionName = "Østjylland" },
 				new Region { RegionId = 4, RegionName = "Sønderjylland" }
 				);
+			 * 
+			 * */
 		}
 	}
 }

@@ -211,6 +211,14 @@
     <Compile Include="Migrations\201506101443497_FirstRegions.Designer.cs">
       <DependentUpon>201506101443497_FirstRegions.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201506101453429_MoarData.cs" />
+    <Compile Include="Migrations\201506101453429_MoarData.Designer.cs">
+      <DependentUpon>201506101453429_MoarData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201506101524176_jkf.cs" />
+    <Compile Include="Migrations\201506101524176_jkf.Designer.cs">
+      <DependentUpon>201506101524176_jkf.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -298,6 +306,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201506101443497_FirstRegions.resx">
       <DependentUpon>201506101443497_FirstRegions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506101453429_MoarData.resx">
+      <DependentUpon>201506101453429_MoarData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201506101524176_jkf.resx">
+      <DependentUpon>201506101524176_jkf.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
