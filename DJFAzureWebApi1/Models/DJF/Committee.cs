@@ -10,6 +10,7 @@ namespace DJFAzureWebApi1.Models.DJF
 		public int CommitteeId { get; set; }
 		public string CommitteeName { get; set; }
 		public List<Membership> Memberships { get; set; }
+		public List<Association> Associations { get; set; }
 
 		public Committee()
 		{

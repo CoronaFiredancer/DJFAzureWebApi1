@@ -207,10 +207,14 @@
     </Compile>
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\DJF\Association.cs" />
     <Compile Include="Models\DJF\Committee.cs" />
     <Compile Include="Models\DJF\DB.cs" />
+    <Compile Include="Models\DJF\JKF.cs" />
     <Compile Include="Models\DJF\Member.cs" />
     <Compile Include="Models\DJF\Membership.cs" />
+    <Compile Include="Models\DJF\Region.cs" />
+    <Compile Include="Models\DJF\Role.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
